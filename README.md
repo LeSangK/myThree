@@ -1,5 +1,8 @@
 # myThree
 
+# package install
+ npm install
+
 # Build
  npm run build 
 
