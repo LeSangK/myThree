@@ -1,8 +1,7 @@
 # myThree
 
-#Build
+# Build
  npm run build 
 
-#est
- npm run test 
-can not hot update
+# Test
+ npm run test(can not hot update)
