@@ -111,11 +111,13 @@ $(function () {
         // cube.rotation.y += 0.01;
         // sphere.rotation.x += 0.01;
         // sphere.rotation.y += 0.01;
+        if(!pause){
         meshList.forEach(mesh=>{mesh.rotation.x+=0.01,mesh.rotation.y+=0.01,mesh.position.y-=0.1});
         meshList.forEach(mesh=>{if(mesh.position.y<0){  
             mesh.position.x = (Math.random() - 0.5) * 800;
             mesh.position.y = (Math.random() - 0.5) * 800;
             mesh.position.z = (Math.random() - 0.5) * 800;}})
+        }
         renderer.render(scene, camera);
     };
     render();
