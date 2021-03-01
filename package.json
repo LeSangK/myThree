@@ -16,7 +16,7 @@
     "@types/jquery": "^3.3.31",
     "@types/three": "^0.103.2",
     "jquery": "^3.4.1",
-    "three": "^0.111.0"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "http-server": "^0.12.0",
